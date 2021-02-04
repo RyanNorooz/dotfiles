@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+
+
+### WHITELIST
+
+## Directories
+# !*/
+# !folder/
+
+# Files
+!.gitignore
+!.zshrc
+!.bashrc
+!.nanorc
+!.cwd.py
