@@ -8,10 +8,6 @@ case $- in
       *) return;;
 esac
 
-alias windesk='cd /mnt/c/Users/Ryan/Desktop'
-alias winhome='cd /mnt/c/Users/Ryan/'
-alias cwd='python3 /home/kalileo/.cwd.py'
-
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -115,3 +111,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+
+alias windesk='cd /mnt/c/Users/Ryan/Desktop'
+alias winhome='cd /mnt/c/Users/Ryan/'
