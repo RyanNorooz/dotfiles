@@ -1,5 +1,5 @@
 {
-    "Vue JS Html Scss": {
+    "Vue JS HTML SCSS": {
         "scope": "vue",
         "prefix": "vue",
         "body": [
@@ -30,6 +30,6 @@
             "</style>",
             ""
         ],
-        "description": "Vue Component Snippet, created by Ryan"
+        "description": "Vue Component Snippet, created by Ryan Norooz"
     }
 }
