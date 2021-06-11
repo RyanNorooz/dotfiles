@@ -1,0 +1,72 @@
+{
+    "recommendations": [
+        /**
+         * quality of life improvements
+         */
+        "eamodio.gitlens",
+        "christian-kohler.path-intellisense",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "aaron-bond.better-comments",
+        "CoenraadS.bracket-pair-colorizer-2",
+        "Equinusocio.vsc-community-material-theme",
+        "PKief.material-icon-theme",
+        /**
+         * persian stuff
+         */
+        "Abolfazl.persian-lorem",
+        /**
+         * html
+         */
+        "ritwickdey.LiveServer",
+        "abusaidm.html-snippets",
+        "ecmel.vscode-html-css",
+        "formulahendry.auto-rename-tag",
+        "Zignd.html-css-class-completion",
+        /**
+         * css, sass, scss...
+         */
+        "naumovs.color-highlight",
+        "sibiraj-s.vscode-scss-formatter",
+        "stylelint.vscode-stylelint",
+        "syler.sass-indented",
+        "bradlc.vscode-tailwindcss",
+        "pranaygp.vscode-css-peek",
+        /**
+         * js project
+         */
+        "msjsdiag.debugger-for-chrome",
+        "eg2.vscode-npm-script",
+        "dbaeumer.vscode-eslint",
+        "wix.vscode-import-cost",
+        "christian-kohler.npm-intellisense",
+        "xabikos.JavaScriptSnippets",
+        /**
+         * vue project
+         */
+        "octref.vetur",
+        "sdras.vue-vscode-snippets",
+        /**
+         * flutter
+         */
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter",
+        /**
+         * python
+         */
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        /**
+         * misc
+         */
+        "ms-vscode-remote.remote-wsl",
+        "ms-vsliveshare.vsliveshare",
+        "WallabyJs.quokka-vscode",
+        "IronGeek.vscode-env",
+        "redhat.vscode-yaml",
+        "DotJoshJohnson.xml",
+        "webben.browserslist",
+        "fwcd.kotlin",
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+    ]
+}
