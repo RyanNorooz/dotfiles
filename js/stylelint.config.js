@@ -50,7 +50,7 @@ module.exports = {
     'media-feature-colon-space-before': 'never',
     'media-feature-colon-space-after': 'always',
     'value-keyword-case': ['lower', {
-      ignoreProperties: [/\$[a-z|A-Z|0-9|_|-]*/]
+      ignoreProperties: [/\$.*/] // ignore sass variables
     }]
   }
 }
