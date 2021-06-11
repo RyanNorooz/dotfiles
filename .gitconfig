@@ -1,0 +1,10 @@
+[core]
+	editor = code --wait
+	autocrlf = true
+	filemode = false
+[user]
+	name = Ryan Norooz
+	email = 58340667+RyanNorooz@users.noreply.github.com
+  username = RyanNorooz
+[init]
+	defaultBranch = main
