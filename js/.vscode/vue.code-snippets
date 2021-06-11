@@ -1,0 +1,35 @@
+{
+    "Vue JS Html Scss": {
+        "scope": "vue",
+        "prefix": "vue",
+        "body": [
+            "<script>",
+            "",
+            "export default {",
+            "  name: '${1:Untitled}',",
+            "  components: {},",
+            "  props: {},",
+            "  setup () { return {} },",
+            "  data: () => ({}),",
+            "  computed: {},",
+            "  watch: {},",
+            "  mounted () {},",
+            "  methods: {}",
+            "}",
+            "",
+            "</script>",
+            "",
+            "<template>",
+            "  <div>",
+            "    $1$0",
+            "  </div>",
+            "</template>",
+            "",
+            "<style lang=\"scss\" scoped>",
+            "",
+            "</style>",
+            ""
+        ],
+        "description": "Vue Component Snippet, created by Ryan"
+    }
+}
