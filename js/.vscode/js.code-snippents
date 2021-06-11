@@ -4,6 +4,8 @@
 		"prefix": "sleep",
 		"body": [
 			"await new Promise(r => setTimeout(r, ${1:1000}))"
-		]
+		],
+		"description": "Use in top level code or in an async function"
+
 	}
 }
