@@ -1,12 +1,12 @@
 [core]
 	editor = code --wait
-	autocrlf = true
-	filemode = false
+	autocrlf = input # convert all EOFs with lf when added to repo
+	filemode = false # ignore file permission changes
 [user]
 	name = Ryan Norooz
 	email = 58340667+RyanNorooz@users.noreply.github.com
 	username = RyanNorooz
-	# signingkey = [signingkey]
+	# signingkey = [gpg-signing-key] # gpg signing key
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -17,4 +17,4 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe # path to gpg program
