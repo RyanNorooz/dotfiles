@@ -5,6 +5,16 @@
 [user]
 	name = Ryan Norooz
 	email = 58340667+RyanNorooz@users.noreply.github.com
-  username = RyanNorooz
+	username = RyanNorooz
+	# signingkey = [signingkey]
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
