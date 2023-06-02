@@ -1,17 +1,58 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [],
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "profiles": 
     {
-        "defaults": 
-        {
-            "antialiasingMode": "cleartype",
-            "useAcrylic": true
-        },
+        "defaults": {},
         "list": 
         [
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell v7",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
@@ -19,60 +60,38 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "colorScheme": "Campbell",
-                "experimental.retroTerminalEffect": false,
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
-                "name": "cmd"
+                "name": "Git Bash",
+                "source": "Git"
             },
             {
-                "colorScheme": "Campbell Powershell",
-                "cursorShape": "bar",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "size": 10
-                },
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
-                "name": "Windows PowerShell",
-                "startingDirectory": "%USERPROFILE%"
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "icon": "C:\\Program Files\\WindowsApps\\CanonicalGroupLimited.UbuntuonWindows_2004.2022.1.0_x64__79rhkp1fndgsc\\Assets\\Square44x44Logo.altform-unplated_targetsize-48.png",
+                "hidden": true,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "commandline": "ssh anjoman@178.63.232.185",
-                "font": 
-                {
-                    "size": 9
-                },
-                "guid": "{0ef1abe9-da73-5faf-8a70-7aa2d95c2043}",
-                "icon": "E:\\WebProjects\\Anjoman\\Anjoman-Frontend\\public\\favicon.ico",
-                "name": "Anjoman.Online VPS@Anjoman"
-            },
-            {
                 "commandline": "ssh root@138.201.213.236",
-                "font": 
-                {
-                    "size": 9
-                },
-                "guid": "{b9a49b56-0aff-487d-b80e-84a821bb0438}",
-                "icon": "E:\\WebProjects\\Anjoman\\Anjoman-Frontend-nuxt\\static\\favicon.ico",
-                "name": "VPS@root"
+                "guid": "{b47d7e65-a99a-4338-95f8-b4c50ecd45fb}",
+                "hidden": false,
+                "icon": "C:\\Users\\ryan\\Desktop\\Anjoman UI\\Golden Duck.png",
+                "name": "Maktoobgar VPS"
             },
             {
-                "guid": "{0151b460-f85d-5ee1-b67d-9cc74ce24ffe}",
+                "guid": "{6d850e4b-ec09-5eab-9967-b83b393a2092}",
                 "hidden": true,
                 "name": "Developer Command Prompt for VS 2019",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{8684c215-be20-5dca-9a44-6193784f62db}",
+                "guid": "{ff84bf3d-70d9-52b8-9cd5-6f15b37072bf}",
                 "hidden": true,
                 "name": "Developer PowerShell for VS 2019",
                 "source": "Windows.Terminal.VisualStudio"
@@ -126,52 +145,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "background": "#272935",
-            "black": "#21222C",
-            "blue": "#BD93F9",
-            "brightBlack": "#6272A4",
-            "brightBlue": "#D6ACFF",
-            "brightCyan": "#A4FFFF",
-            "brightGreen": "#69FF94",
-            "brightPurple": "#FF92DF",
-            "brightRed": "#FF6E6E",
-            "brightWhite": "#F8F8F2",
-            "brightYellow": "#FFFFA5",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#8BE9FD",
-            "foreground": "#F8F8F2",
-            "green": "#50FA7B",
-            "name": "Dracula",
-            "purple": "#FF79C6",
-            "red": "#FF5555",
-            "selectionBackground": "#FFFFFF",
-            "white": "#F8F8F2",
-            "yellow": "#FFB86C"
-        },
-        {
-            "background": "#1F1F1F",
-            "black": "#1F1F1F",
-            "blue": "#6699DF",
-            "brightBlack": "#75715E",
-            "brightBlue": "#66D9EF",
-            "brightCyan": "#E69F66",
-            "brightGreen": "#A6E22E",
-            "brightPurple": "#AE81FF",
-            "brightRed": "#F92672",
-            "brightWhite": "#F8F8F2",
-            "brightYellow": "#E6DB74",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#E69F66",
-            "foreground": "#F8F8F8",
-            "green": "#A6E22E",
-            "name": "Monokai Night",
-            "purple": "#AE81FF",
-            "red": "#F92672",
-            "selectionBackground": "#FFFFFF",
-            "white": "#F8F8F2",
-            "yellow": "#E6DB74"
         },
         {
             "background": "#282C34",
@@ -312,6 +285,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -335,5 +331,6 @@
             "yellow": "#808000"
         }
     ],
-    "useAcrylicInTabRow": true
+    "tabWidthMode": "equal",
+    "useAcrylicInTabRow": false
 }
