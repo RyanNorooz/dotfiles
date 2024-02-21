@@ -1,0 +1,63 @@
+{
+  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "React component boilerplate": {
+    "scope": "javascriptreact,typescriptreact,javascript,typescript",
+    "prefix": "!!",
+    "body": [
+      "interface ${TM_FILENAME_BASE/(\\w+)|(-)/${1:/capitalize}/g}Props {}",
+      "",
+      "export default function ${TM_FILENAME_BASE/(\\w+)|(-)/${1:/capitalize}/g}(props: ${TM_FILENAME_BASE/(\\w+)|(-)/${1:/capitalize}/g}Props) {",
+      "  return <div>${TM_FILENAME_BASE/(\\w+)|(-)/${1:/capitalize}/g}</div>$0",
+      "}"
+    ],
+    "description": "React component boilerplate"
+  },
+  "React Router hook": {
+    "scope": "javascriptreact,typescriptreact,javascript,typescript",
+    "prefix": "router",
+    "body": ["const router = useRouter()"],
+    "description": "React Router hook"
+  },
+  "React useState hook": {
+    "scope": "javascriptreact,typescriptreact,javascript,typescript",
+    "prefix": "useState",
+    "body": ["const [$1, set${1/(\\w+)/${1:/capitalize}/}] = useState($0)"],
+    "description": "React useState hook"
+  },
+  "I18N t function": {
+    "scope": "javascriptreact,typescriptreact,javascript,typescript",
+    "prefix": "tfunc",
+    "body": ["const { t } = useTranslation()"],
+    "description": "I18N t function"
+  },
+  "Mui screen size media query check": {
+    "scope": "javascriptreact,typescriptreact,javascript,typescript",
+    "prefix": "isMD",
+    "body": [
+      "const is${1|XS,SM,MD,LG,XL|} = useMediaQuery<Theme>((t) => t.breakpoints.up('${1/(\\w+)/${1:/downcase}/}'))$0"
+    ],
+    "description": "use to check for a certain screen size"
+  },
+  "Mui isTouch check": {
+    "scope": "javascriptreact,typescriptreact,javascript,typescript",
+    "prefix": "isTouch",
+    "body": ["const isTouch = useMediaQuery('(hover: none)')$0"],
+    "description": "use to check if device uses a touch screen"
+  }
+}

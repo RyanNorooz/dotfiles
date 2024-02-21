@@ -1,0 +1,129 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.tree.indent": 10,
+  "git.enableCommitSigning": true,
+  "eslint.format.enable": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.insertFinalNewline": true,
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "redhat.telemetry.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false
+  },
+  "cSpell.allowCompoundWords": true,
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "graphql",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "jupyter",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "python",
+    "pug",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml",
+    "vue"
+  ],
+  "i18n-ally.displayLanguage": "en",
+  "volar.icon.preview": true,
+  "volar.icon.finder": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "volar.codeLens.scriptSetupTools": true,
+  "volar.codeLens.pugTools": true,
+  "search.quickOpen.includeHistory": false,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "files.eol": "\n",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "git.autofetch": true,
+  "git.allowForcePush": true,
+  "editor.suggest.showWords": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.filterGraceful": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.linkedEditing": true,
+  "diffEditor.codeLens": true,
+  "diffEditor.diffAlgorithm": "advanced",
+  "diffEditor.experimental.useVersion2": true,
+  "editor.minimap.showSlider": "always",
+  "workbench.colorTheme": "GitHub Dark",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.namespace": true,
+  "i18n-ally.defaultNamespace": "common",
+  "cSpell.language": "en, fa",
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "cSpell.userWords": ["gsap", "trpc", "Zustand"],
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "[glsl]": {
+    "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "codesnap.shutterAction": "copy",
+  "headwind.runOnSave": false,
+  "tailwindCSS.experimental.classRegex": [["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]]
+}

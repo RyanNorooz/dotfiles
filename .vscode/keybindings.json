@@ -1,0 +1,34 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  //============ Bind Shift+Del to delete line ============//
+  {
+    "key": "shift+delete",
+    "command": "-editor.action.clipboardCutAction"
+  },
+  {
+    "key": "shift+delete",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  //======= Bind expand-region ext to Ctrl+Shift+⇅ =======//
+  {
+    "key": "ctrl+w",
+    "command": "-expand_region",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-undo_expand_region",
+    "when": "editorHasSelection && editorTextFocus"
+  },
+  {
+    "key": "alt+w",
+    "command": "expand_region",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+w",
+    "command": "undo_expand_region",
+    "when": "editorHasSelection && editorTextFocus"
+  }
+]

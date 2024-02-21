@@ -1,20 +1,32 @@
 [core]
-	editor = code --wait
-	autocrlf = input # convert all EOFs with lf when added to repo
-	filemode = false # ignore file permission changes
+editor = code --wait
+autocrlf = input # convert all EOLs with lf when added to repo
+# filemode = false # ignore file permission changes
+fsmonitor = true
+ignorecase = false
+
 [user]
-	name = Ryan Norooz
-	email = 58340667+RyanNorooz@users.noreply.github.com
-	username = RyanNorooz
-	# signingkey = [gpg-signing-key] # gpg signing key
+name = Ryan Norooz
+email = ryan.norooz@gmail.com
+username = RyanNorooz
+# signingkey = asdfasdfasd # gpg signing key
+# signingkey = C:\\Users\\ryan\\.ssh\\asdf.pub # path to ssh public key
+
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+required = true
+
 [init]
-	defaultBranch = main
+defaultBranch = main
+
 [commit]
-	gpgsign = true
+gpgsign = true
+
 [gpg]
-	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe # path to gpg program
+# program = C:\\Program Files (x86)\\gnupg\\bin\\gpg.exe # path to gpg program
+format = ssh
+
+[rebase]
+autoStash = true
